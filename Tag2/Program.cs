@@ -25,7 +25,7 @@ class Program
                     if (int.TryParse(Console.ReadLine(), out zahl))
                         break;
 
-                    Console.WriteLine("❌ Keine gültige Zahl! Bitte erneut eingeben.\n");
+                    Console.WriteLine("Keine gültige Zahl! Bitte erneut eingeben.\n");
                 }
 
                 if (zahl < 0)
@@ -73,7 +73,7 @@ class Program
 
                 if (operation == "/" && zahl2 == 0)
                 {
-                    Console.WriteLine("❌ Division durch 0 ist nicht erlaubt!\n");
+                    Console.WriteLine("Division durch 0 ist nicht erlaubt!\n");
                 }
                 else
                 {
