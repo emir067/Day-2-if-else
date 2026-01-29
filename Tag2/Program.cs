@@ -46,7 +46,7 @@ class Program
                     if (double.TryParse(Console.ReadLine(), out zahl1))
                         break;
 
-                    Console.WriteLine("❌ Ungültige Zahl! Bitte erneut eingeben.\n");
+                    Console.WriteLine("Ungültige Zahl! Bitte erneut eingeben.\n");
                 }
 
                 double zahl2;
@@ -56,7 +56,7 @@ class Program
                     if (double.TryParse(Console.ReadLine(), out zahl2))
                         break;
 
-                    Console.WriteLine("❌ Ungültige Zahl! Bitte erneut eingeben.\n");
+                    Console.WriteLine("Ungültige Zahl! Bitte erneut eingeben.\n");
                 }
 
                 string operation;
@@ -68,7 +68,7 @@ class Program
                     if (operation == "+" || operation == "-" || operation == "*" || operation == "/")
                         break;
 
-                    Console.WriteLine("❌ Ungültige Operation! Bitte erneut eingeben.\n");
+                    Console.WriteLine("Ungültige Operation! Bitte erneut eingeben.\n");
                 }
 
                 if (operation == "/" && zahl2 == 0)
